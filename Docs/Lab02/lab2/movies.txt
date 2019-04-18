@@ -1,3 +1,10 @@
-1;1;1;1999;1;1;12;Catal;Costel;2001;Catal,Stapan;Animals;catal,cutu
-2;co;co;2000;a;e;t
-3;1;1;2000;1;1;1
+1;m1;Catalin;1999;a;a;a
+2;m2;Madalina;1999;a;a;a
+3;m3;Georgiana;1999;a;1;a
+4;m4;Andrei;1999;a;1;a
+5;m5;Mihai;1999;a;a;a
+6;m6;Ionatan;1999;a;a;a
+7;m6;;1999;a;a;a
+8;a;Catalin;1999;a;a;a
+9;z;Catalin;1999;a;a;a
+10;s;Catalin;1999;a;a;a

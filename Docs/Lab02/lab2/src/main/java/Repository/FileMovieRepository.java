@@ -85,6 +85,8 @@ public class FileMovieRepository implements IRepository<Movie,Integer>
                 Integer id=Integer.parseInt(pieces[0]);
                 String title=pieces[1];
                 String director=pieces[2];
+                if(director=="")
+                    director=null;
                 Integer year=Integer.parseInt(pieces[3]);
                 List<String> actors= new LinkedList<>();
                 String category=pieces[5];
@@ -113,6 +115,7 @@ public class FileMovieRepository implements IRepository<Movie,Integer>
             for(Movie movie:movies)
             {
                 String line= String.valueOf(movie.getId());
+
                 line+=";"+movie.getTitle();
                 line+=";"+movie.getDirector();
                 line+=";"+movie.getYear();

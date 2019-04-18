@@ -1,9 +1,9 @@
 package UI;
 
 import Service.MovieService;
-import org.omg.CORBA.PRIVATE_MEMBER;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.List;
@@ -29,6 +29,8 @@ public class Ui
         System.out.println("0.Exit!");
         System.out.println("1.Add movie");
         System.out.println("2.View movies");
+        System.out.println("3.View movies by director");
+        System.out.println("4.View movie titles for director");
     }
 
     private void addMovie()
@@ -73,6 +75,35 @@ public class Ui
     {
         movieService.getMovies().forEach(System.out::println);
     }
+    private void viewMoviesByDirector()
+    {
+        try
+        {
+            System.out.println("Director name:");
+            String director=reader.readLine();
+            movieService.getMoviesByDirector(director).forEach(System.out::println);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void viewMovieTitlesForDirector()
+    {
+        try
+        {
+            viewMovies();
+            System.out.println("Director name:");
+            String director=reader.readLine();
+            movieService.getMovieTitleByDirector(director).forEach(System.out::println);
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
     public void show()
     {
         try
@@ -89,6 +120,10 @@ public class Ui
                     addMovie();
                 if(opt.trim().compareTo("2")==0)
                     viewMovies();
+                if(opt.trim().compareTo("3")==0)
+                    viewMoviesByDirector();
+                if(opt.trim().compareTo("4")==0)
+                    viewMovieTitlesForDirector();
 
             }
             reader.close();
