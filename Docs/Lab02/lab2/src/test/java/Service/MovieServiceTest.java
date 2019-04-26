@@ -217,7 +217,7 @@ public class MovieServiceTest
     }
 
     @Test
-    public void getMoviesByDirectorValid1()
+    public void getMoviesByDirectorValid()
     {
         fileMovieRepository.add(new Movie(0,"m6","",1999, Arrays.asList("a"),"A",Arrays.asList("a")));
         List<String> directors= new ArrayList<>();
@@ -226,25 +226,19 @@ public class MovieServiceTest
 
         assert directors.contains("Catalin");
         assert directors.contains("Madalina");
-    }
-    @Test
-    public void getMoviesByDirectorValid2()
-    {
-        assert movieService.getMoviesByDirector("en").size()==0;
-    }
-    @Test
-    public void getMoviesByDirectorInvalid1()
-    {
-        assert movieService.getMoviesByDirector(null).size()==0;
-    }
 
-    @Test
-    public void getMoviesByDirectorValid3()
-    {
+        assert movieService.getMoviesByDirector("en").size()==0;
+
         IRepository<Movie,Integer> movieRepo = new FileMovieRepository("movies1.txt");
         MovieService movieService1 = new MovieService(movieRepo,movieValidator);
         assert  movieService1.getMoviesByDirector("a").size()==0;
     }
+    @Test
+    public void getMoviesByDirectorInvalid()
+    {
+        assert movieService.getMoviesByDirector(null).size()==0;
+    }
+
 
     @Test
     public void getMovieTitlesByDirector1Invalid()
