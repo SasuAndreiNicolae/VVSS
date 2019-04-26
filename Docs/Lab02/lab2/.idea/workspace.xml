@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d0c2b4-ea27-4518-8d49-f29208a6e45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movieTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movieTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/moviesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Service/MovieServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Service/MovieServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab01/gradlew.bat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Service/MovieServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
               <folding>
                 <element signature="e#6970#6971#0" expanded="true" />
                 <element signature="e#7041#7042#0" expanded="true" />
@@ -104,7 +109,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/movies.txt">
+        <entry file="file://$PROJECT_DIR$/movies.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -479,6 +484,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Programare\Facultate\VVSS\3-ProiectAgenda\Docs\Lab02\lab2" />
       <recent name="F:\Programare\Facultate\VVSS\3-ProiectAgenda\Docs\Lab02\lab2\src\main\resources" />
       <recent name="F:\Programare\Facultate\VVSS\3-ProiectAgenda\Docs\Lab02\lab2\src\test\resources" />
     </key>
@@ -558,7 +564,7 @@
       <workItem from="1555532429244" duration="1551000" />
       <workItem from="1555534051732" duration="6000" />
       <workItem from="1555534067718" duration="439000" />
-      <workItem from="1556281054108" duration="2091000" />
+      <workItem from="1556281054108" duration="2545000" />
     </task>
     <servers />
   </component>
@@ -577,13 +583,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4763000" />
+    <option name="totallyTimeSpent" value="5217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -592,7 +597,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movies.txt">
+    <entry file="file://$PROJECT_DIR$/movies.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
@@ -661,7 +666,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/MovieServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
           <folding>
             <element signature="e#6970#6971#0" expanded="true" />
             <element signature="e#7041#7042#0" expanded="true" />
