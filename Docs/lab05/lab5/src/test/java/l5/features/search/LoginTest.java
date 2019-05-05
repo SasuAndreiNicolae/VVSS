@@ -1,15 +1,9 @@
 package l5.features.search;
 
-<<<<<<< HEAD
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.junit.annotations.UseTestDataFrom;
-=======
-import net.serenitybdd.junit.runners.SerenityRunner;
-import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Steps;
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
@@ -18,7 +12,6 @@ import org.openqa.selenium.WebDriver;
 import l5.steps.serenity.EndUserSteps;
 import org.openqa.selenium.WebElement;
 
-<<<<<<< HEAD
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom("src/test/resources/features/search/ticketsLoginData.csv")
 public class LoginTest
@@ -36,11 +29,6 @@ public class LoginTest
         System.out.println("password:"+password);
     }
 
-=======
-@RunWith(SerenityRunner.class)
-public class LoginTest
-{
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
     static
     {
         System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");
@@ -56,13 +44,8 @@ public class LoginTest
     public void loginValid()
     {
         tickets.openLoginPage();
-<<<<<<< HEAD
         webdriver.findElement(By.id("Email")).sendKeys(email);
         webdriver.findElement(By.id("Password")).sendKeys(password);
-=======
-        webdriver.findElement(By.id("Email")).sendKeys("andrei_sasu_1996@yahoo.com");
-        webdriver.findElement(By.id("Password")).sendKeys("2Nr8gCHeCKhT!BJ");
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
         WebElement webElement= webdriver.findElement( By.xpath("//input[@type='submit' and @value='Log in']"));
         webElement.submit();
 

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: l5.features.search.LoginTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.022 sec - in l5.features.search.LoginTest
-=======
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.061 sec - in l5.features.search.LoginTest
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.054 sec - in l5.features.search.LoginTest

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="l5.features.search.LoginTest" skipped="0" tests="2" time="9.58" timestamp="2019-05-05 08:58:03"><testcase classname="l5.features.search.LoginTest" name="Login valid"/><testcase classname="l5.features.search.LoginTest" name="Login invalid"/></testsuite>
-=======
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="l5.features.search.LoginTest" skipped="0" tests="2" time="19.35" timestamp="2019-05-05 08:10:13"><testcase classname="l5.features.search.LoginTest" name="Login valid"/><testcase classname="l5.features.search.LoginTest" name="Login invalid"/></testsuite>
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="l5.features.search.LoginTest" skipped="0" tests="2" time="10.89" timestamp="2019-05-05 09:34:18"><testcase classname="l5.features.search.LoginTest" name="Login valid"/><testcase classname="l5.features.search.LoginTest" name="Login invalid"/></testsuite>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="l5.features.search.SearchTest" time="11.08" tests="2" errors="0" skipped="0" failures="0">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="l5.features.search.SearchTest" time="12.034" tests="2" errors="0" skipped="0" failures="0">
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="l5.features.search.SearchTest" time="12.093" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2018.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -66,11 +62,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-<<<<<<< HEAD
-  <testcase name="testSearchValid" classname="l5.features.search.SearchTest" time="6.992"/>
-  <testcase name="testSearchInvalid" classname="l5.features.search.SearchTest" time="3.153"/>
-=======
-  <testcase name="testSearchValid" classname="l5.features.search.SearchTest" time="7.76"/>
-  <testcase name="testSearchInvalid" classname="l5.features.search.SearchTest" time="3.271"/>
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+  <testcase name="testSearchValid" classname="l5.features.search.SearchTest" time="7.682"/>
+  <testcase name="testSearchInvalid" classname="l5.features.search.SearchTest" time="3.406"/>
 </testsuite>

@@ -1,8 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD
-"Login test","Login valid","SUCCESS","2019-05-05T20:58:03.7462852+03:00[Europe/Athens]","0.0","8.61"
-"Login test","Login invalid","SUCCESS","2019-05-05T20:58:03.9349573+03:00[Europe/Athens]","0.0","0.97"
-=======
-"Login test","Login valid","SUCCESS","2019-05-05T20:10:13.801441+03:00[Europe/Athens]","0.0","13.26"
-"Login test","Login invalid","SUCCESS","2019-05-05T20:10:27.6853678+03:00[Europe/Athens]","0.0","6.09"
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+"Login test","Login valid","SUCCESS","2019-05-05T21:34:18.0552352+03:00[Europe/Athens]","0.0","9.73"
+"Login test","Login invalid","SUCCESS","2019-05-05T21:34:18.1736795+03:00[Europe/Athens]","0.0","1.16"

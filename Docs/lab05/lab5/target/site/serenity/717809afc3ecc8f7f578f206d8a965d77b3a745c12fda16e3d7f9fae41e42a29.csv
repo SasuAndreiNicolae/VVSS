@@ -1,8 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD
-"New account test","Test new account valid","SUCCESS","2019-05-05T20:58:24.3454801+03:00[Europe/Athens]","0.0","7.66"
-"New account test","Test new account invalid","SUCCESS","2019-05-05T20:58:24.5140867+03:00[Europe/Athens]","0.0","1.1"
-=======
-"New account test","Test new account valid","SUCCESS","2019-05-05T20:10:45.8052427+03:00[Europe/Athens]","0.0","12.68"
-"New account test","Test new account invalid","SUCCESS","2019-05-05T20:10:58.510396+03:00[Europe/Athens]","0.0","6.29"
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
+"New account test","Test new account valid","SUCCESS","2019-05-05T21:34:46.5436029+03:00[Europe/Athens]","0.0","7.44"
+"New account test","Test new account invalid","SUCCESS","2019-05-05T21:34:46.7910161+03:00[Europe/Athens]","0.0","1.18"

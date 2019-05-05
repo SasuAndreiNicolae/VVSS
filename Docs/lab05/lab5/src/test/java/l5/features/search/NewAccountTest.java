@@ -1,21 +1,14 @@
 package l5.features.search;
 
 import l5.steps.serenity.EndUserSteps;
-<<<<<<< HEAD
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.junit.annotations.UseTestDataFrom;
-=======
-import net.serenitybdd.junit.runners.SerenityRunner;
-import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Steps;
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-<<<<<<< HEAD
 import org.openqa.selenium.WebElement;
 import java.util.Random;
 
@@ -36,18 +29,6 @@ public class NewAccountTest
         this.password = password;
     }
 
-=======
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
-
-import java.nio.charset.Charset;
-import java.util.Random;
-
-@RunWith(SerenityRunner.class)
-public class NewAccountTest
-{
-
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
     static
     {
         System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe");
@@ -83,15 +64,9 @@ public class NewAccountTest
         WebElement confirmPassword = webdriver.findElement(By.id("ConfirmPassword"));
 
         String username = randomUsername();
-<<<<<<< HEAD
         emailInput.sendKeys(randomUsername()+emailDomain);
         passwordInput.sendKeys(password);
         confirmPassword.sendKeys(password);
-=======
-        emailInput.sendKeys(randomUsername()+"@gmail.com");
-        passwordInput.sendKeys("2Nr8gCHeCKhT!BJ");
-        confirmPassword.sendKeys("2Nr8gCHeCKhT!BJ");
->>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
 
         emailInput.submit();
 
