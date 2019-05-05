@@ -1,3 +1,0 @@
-1;1;1;1999;1;1;12;Catal;Costel;2001;Catal,Stapan;Animals;catal,cutu
-2;co;co;2000;a;e;t
-3;1;1;2000;1;1;1
