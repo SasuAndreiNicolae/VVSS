@@ -6,6 +6,13 @@ import l5.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 
+<<<<<<< HEAD
+=======
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.hasItem;
+
+>>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
 public class EndUserSteps extends ScenarioSteps {
 
 

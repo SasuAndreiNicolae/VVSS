@@ -1,3 +1,8 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "Search test","Test search valid","SUCCESS","2019-05-05T20:58:24.8012873+03:00[Europe/Athens]","0.0","7.0"
 "Search test","Test search invalid","SUCCESS","2019-05-05T20:58:31.8204241+03:00[Europe/Athens]","0.0","3.15"
+=======
+"Search test","Test search valid","SUCCESS","2019-05-05T20:11:05.7597939+03:00[Europe/Athens]","0.0","7.76"
+"Search test","Test search invalid","SUCCESS","2019-05-05T20:11:13.559533+03:00[Europe/Athens]","0.0","3.27"
+>>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3

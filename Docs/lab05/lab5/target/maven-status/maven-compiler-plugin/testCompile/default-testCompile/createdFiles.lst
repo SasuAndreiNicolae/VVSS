@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 l5\features\search\package-info.class
 l5\features\search\NewAccountTest.class
+=======
+l5\features\search\NewAccountTest.class
+l5\features\search\package-info.class
+>>>>>>> 311842b6ac7969765c16388eb62820e744a1ced3
 l5\pages\LoginPage$SearchPageNoInput.class
 l5\steps\serenity\EndUserSteps.class
 l5\features\search\SearchTest.class
