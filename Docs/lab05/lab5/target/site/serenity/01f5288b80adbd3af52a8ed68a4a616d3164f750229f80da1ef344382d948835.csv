@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login test","Login valid","SUCCESS","2019-05-05T20:10:13.801441+03:00[Europe/Athens]","0.0","13.26"
+"Login test","Login invalid","SUCCESS","2019-05-05T20:10:27.6853678+03:00[Europe/Athens]","0.0","6.09"
+"New account test","Test new account valid","SUCCESS","2019-05-05T20:10:45.8052427+03:00[Europe/Athens]","0.0","12.68"
+"New account test","Test new account invalid","SUCCESS","2019-05-05T20:10:58.510396+03:00[Europe/Athens]","0.0","6.29"
+"Search test","Test search valid","SUCCESS","2019-05-05T20:11:05.7597939+03:00[Europe/Athens]","0.0","7.76"
+"Search test","Test search invalid","SUCCESS","2019-05-05T20:11:13.559533+03:00[Europe/Athens]","0.0","3.27"
