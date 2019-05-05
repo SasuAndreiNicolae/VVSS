@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="l5.features.search.LoginTest" skipped="0" tests="2" time="9.58" timestamp="2019-05-05 08:58:03"><testcase classname="l5.features.search.LoginTest" name="Login valid"/><testcase classname="l5.features.search.LoginTest" name="Login invalid"/></testsuite>
